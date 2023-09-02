@@ -19,10 +19,11 @@
   }
 
   .container {
+    /* background-color: red; */
     padding: 0 30px 30px 30px;
     border-radius: 5px;
     background-color: #fff;
-    width: 70%;
+    width: 75%;
     margin-top: 21px;
   }
 
@@ -128,11 +129,13 @@
   .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    column-gap:25px ;
   }
   .course{ 
-      padding: 10% 10%;
+    /* background-color: red; */
+      padding: 20px 30px 20px 30px;
       border-radius: 5px;
-      box-shadow: 5px -5px 12px -15px;
+      box-shadow: 5px 5px 12px -15px;
   }
   
   .course-banner{
@@ -141,7 +144,6 @@
   .course-banner img{
     width: 266px;
 height: 141px;
-flex-shrink: 0;
   }
   .course-details{
 
@@ -157,15 +159,17 @@ flex-shrink: 0;
 
   }
   .course-info{
+    /* background-color: red; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 10px;
     
     /* gap: 10px; */
 ;
   }
   .icon{
-    margin-right: 10px;
+    /* margin-right: 10px; */
   }
   .fa-star{
 
@@ -173,6 +177,9 @@ flex-shrink: 0;
   }
   .empty{
     color: #AEAEAE;
+  }
+  .fa-clock{
+    color: #FF4A60;
   }
   .course-time{
     margin: 0;
@@ -182,12 +189,16 @@ flex-shrink: 0;
 
   }
   .course-duration{
+    display: flex;
+    align-items: center;
+    gap: 5px;
     border-radius: 14.691px;
-background:#FFE4E8;
-    margin-left: 20px;
-    padding: 0px 5px;
+    background:#FFE4E8;
+    /* margin-left: 20px; */
+    padding: 5px 8px;
   }
   .course-duration p{
+    margin: 0;
     color:  #FF4A60;
     font-size: 14.691px;
     font-weight: 600;
