@@ -1,5 +1,12 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .img{
+    justify-content: center;
+  }
 .players , .blogs , .courses {
     
     grid-template-columns: repeat(1, 1fr);
