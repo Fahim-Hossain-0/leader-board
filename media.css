@@ -1,23 +1,26 @@
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .wrapper{
-    flex-direction: column;
-    align-items: center;
-  }
-  .img{
-    justify-content: center;
-  }
-.players , .blogs , .courses {
-    
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-  }
-.blog ,.courses{
-    flex-direction: column;
-    align-items: normal;
-
-}
-
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+  /* header */
+  header {
+      align-items: center;
+   }
+   .wrapper {
+       flex-direction: column;
+       align-items: center;
+   }
+   /* header */
+   /* top-player-section */
+   .players, .blogs, .courses {
+       grid-template-columns: repeat(1,1fr);
+       justify-content: center;
+   }
+   .blog{
+       flex-direction: column;
+   }
+   .course-duration {
+       padding: 5px 7px;
+     }
+   /* top-player-section */
 }
 
 /* Small devices (landscape phones, 576px and up) */
