@@ -106,7 +106,7 @@ main {
 }
 
 hr {
-height: 1px;
+  height: 1px;
   margin: 30px 0;
   background:rgba(209, 209, 209, 1);
   border:none;
